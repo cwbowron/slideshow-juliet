@@ -55,8 +55,9 @@ public class Analytics {
 	}
 
 	public static boolean isEnabled(Context context) {
-		SharedPreferences settings = context.getSharedPreferences(
-				SlideshowPreferences.PREFS_NAME, 0);
-		return settings.getBoolean(SlideshowPreferences.KEY_DO_ANALYTICS, false);
+//		SharedPreferences settings = context.getSharedPreferences(
+//				SlideshowPreferences.PREFS_NAME, 0);
+//		return settings.getBoolean(SlideshowPreferences.KEY_DO_ANALYTICS, false);
+	    return false;
 	}
 }

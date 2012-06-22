@@ -12,6 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
+import us.bowron.apps.juliet.R;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -44,7 +45,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.elsewhat.android.slideshow.R;
 import com.elsewhat.android.slideshow.api.Analytics;
 import com.elsewhat.android.slideshow.api.AndroidUtils;
 import com.elsewhat.android.slideshow.api.AsyncQueueableObject;
@@ -1078,8 +1078,7 @@ public class SlideshowActivity extends Activity implements FileDownloaderListene
 			@Override
 			protected Void doInBackground(Void... arg0) {
 	    		try {
-	    			//TODO-FORK Update flickr public photo set id
-	    			String flickrPhotosetID = "72157628899979341";
+	    			String flickrPhotosetID = "72157630236285416";
 	    			slideshowPhotos = new FlickrPublicSetBackend(flickrPhotosetID).getSlideshowPhotos(getBaseContext());
 	    			
 					//slideshowPhotos = new OPMLBackend().getSlideshowPhotos(getBaseContext());

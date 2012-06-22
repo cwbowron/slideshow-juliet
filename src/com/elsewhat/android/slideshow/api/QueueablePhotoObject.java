@@ -4,8 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.ref.WeakReference;
 
-import com.elsewhat.android.slideshow.R;
-
+import us.bowron.apps.juliet.R;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.view.View;

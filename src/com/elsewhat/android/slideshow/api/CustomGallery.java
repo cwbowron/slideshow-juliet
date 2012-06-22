@@ -4,6 +4,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Random;
 
+import us.bowron.apps.juliet.R;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -16,14 +17,13 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
-import android.view.animation.ScaleAnimation;
 import android.view.animation.Animation.AnimationListener;
+import android.view.animation.ScaleAnimation;
 import android.widget.Adapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.ViewAnimator;
 
-import com.elsewhat.android.slideshow.R;
 import com.elsewhat.android.slideshow.activities.SlideshowActivity;
 import com.elsewhat.android.slideshow.activities.SlideshowActivity.ImageAdapter;
 

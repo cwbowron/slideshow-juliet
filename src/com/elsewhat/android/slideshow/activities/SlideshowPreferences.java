@@ -2,13 +2,7 @@ package com.elsewhat.android.slideshow.activities;
 
 import java.io.File;
 
-import com.elsewhat.android.slideshow.R;
-import com.elsewhat.android.slideshow.api.Analytics;
-import com.elsewhat.android.slideshow.api.AndroidUtils;
-import com.elsewhat.android.slideshow.api.DeletablePreference;
-import com.elsewhat.android.slideshow.api.ReadOnlyPreference;
-
-
+import us.bowron.apps.juliet.R;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -21,21 +15,25 @@ import android.preference.CheckBoxPreference;
 import android.preference.EditTextPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.Preference.OnPreferenceClickListener;
 import android.text.InputType;
 import android.text.method.DigitsKeyListener;
 import android.widget.Toast;
+
+import com.elsewhat.android.slideshow.api.Analytics;
+import com.elsewhat.android.slideshow.api.AndroidUtils;
+import com.elsewhat.android.slideshow.api.DeletablePreference;
+import com.elsewhat.android.slideshow.api.ReadOnlyPreference;
 
 
 public class SlideshowPreferences extends PreferenceActivity implements
 		OnSharedPreferenceChangeListener {
 
-	//TODO-FORK: Update this with your projects app package name from the android manifest
-	public static final String APP_PACKAGE_NAME="com.elsewhat.android.slideshow";
+	public static final String APP_PACKAGE_NAME="us.bowron.apps.juliet";
 	
 	public static final String PREFS_NAME = "SlideshowPreferences";
 

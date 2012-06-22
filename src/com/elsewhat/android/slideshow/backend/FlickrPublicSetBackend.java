@@ -27,8 +27,8 @@ import com.elsewhat.android.slideshow.activities.SlideshowActivity;
 import com.elsewhat.android.slideshow.api.SlideshowPhoto;
 
 public class FlickrPublicSetBackend {
-	//TODO-FORK: Define your own flickr api key (this is a test one)
-	protected String flickrAPIKey="f6ccebf5e7a6427fec99952ad91939e2";
+//  protected String flickrAPIKey="f6ccebf5e7a6427fec99952ad91939e2";
+    protected String flickrAPIKey="4a0d2471be344d51a48ff57713b87da0";
 	protected String photoset_id;
 	
 	public FlickrPublicSetBackend(String photoset_id){
