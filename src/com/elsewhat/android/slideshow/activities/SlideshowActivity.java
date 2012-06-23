@@ -138,9 +138,9 @@ public class SlideshowActivity extends Activity implements FileDownloaderListene
 	        //Add some hardcoded photos that will be displayed untill we have download the others
 	        ArrayList<SlideshowPhoto> cachedDrawables = new ArrayList<SlideshowPhoto>(10);
 	        //FYI the url is only used during share photo
-	        cachedDrawables.add(new SlideshowPhotoDrawable(this,"Father", "Graffiti art captured in Bergen, Norway",R.drawable.photo_father,"http://dl.dropbox.com/u/4379928/Slideshow/father.JPG"));
-	        cachedDrawables.add(new SlideshowPhotoDrawable(this,"Handstand","The lightning was just perfect this day, so why not use it for something productively",R.drawable.photo_handstand,"http://dl.dropbox.com/u/4379928/Slideshow/handstand.jpg"));
-	        cachedDrawables.add(new SlideshowPhotoDrawable(this,"Lexus", "A showcase photo of the Lexus IS series",R.drawable.photo_lexus,"http://dl.dropbox.com/u/4379928/Slideshow/lexus_is%2Cjpg.jpg"));
+	        cachedDrawables.add(new SlideshowPhotoDrawable(this,"Reading with Mom", "",R.drawable.photo_juliet0,"https://dl.dropbox.com/u/3286618/slideshow-juliet/photo_juliet0.jpg"));
+	        cachedDrawables.add(new SlideshowPhotoDrawable(this,"What's it to ya?","",R.drawable.photo_juliet1,"https://dl.dropbox.com/u/3286618/slideshow-juliet/photo_juliet1.jpg"));
+	        cachedDrawables.add(new SlideshowPhotoDrawable(this,"Hanging with Dad", "",R.drawable.photo_juliet2,"https://dl.dropbox.com/u/3286618/slideshow-juliet/photo_juliet2.jpg"));
 	        
 	        //lets randomize the three hardcoded photos
 			long seed = System.nanoTime();
