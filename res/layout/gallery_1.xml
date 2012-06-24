@@ -22,7 +22,7 @@
  android:layout_height="match_parent"
  android:background="@color/black">
  
-<com.elsewhat.android.slideshow.api.CustomGallery  android:id="@+id/gallery"
+<us.bowron.apps.juliet.api.CustomGallery  android:id="@+id/gallery"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
 />
