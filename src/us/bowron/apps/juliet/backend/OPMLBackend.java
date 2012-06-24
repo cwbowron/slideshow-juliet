@@ -1,4 +1,4 @@
-package com.elsewhat.android.slideshow.backend;
+package us.bowron.apps.juliet.backend;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,12 +21,13 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Text;
 import org.xml.sax.InputSource;
 
+import us.bowron.apps.juliet.activities.SlideshowActivity;
+import us.bowron.apps.juliet.api.SlideshowBackend;
+import us.bowron.apps.juliet.api.SlideshowPhoto;
+
 import android.content.Context;
 import android.util.Log;
 
-import com.elsewhat.android.slideshow.activities.SlideshowActivity;
-import com.elsewhat.android.slideshow.api.SlideshowBackend;
-import com.elsewhat.android.slideshow.api.SlideshowPhoto;
 
 /**
  * Backend specific for StuckInCustoms

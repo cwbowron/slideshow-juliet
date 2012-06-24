@@ -1,4 +1,4 @@
-package com.elsewhat.android.slideshow.api;
+package us.bowron.apps.juliet.api;
 
 import java.io.File;
 import java.io.IOException;

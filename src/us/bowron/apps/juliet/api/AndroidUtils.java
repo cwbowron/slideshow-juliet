@@ -1,4 +1,4 @@
-package com.elsewhat.android.slideshow.api;
+package us.bowron.apps.juliet.api;
 
 import android.content.Context;
 import android.content.pm.PackageManager;

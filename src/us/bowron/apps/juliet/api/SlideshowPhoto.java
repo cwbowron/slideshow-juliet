@@ -1,11 +1,12 @@
-package com.elsewhat.android.slideshow.api;
+package us.bowron.apps.juliet.api;
 
 import java.io.File;
 import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-import com.elsewhat.android.slideshow.activities.SlideshowActivity;
+import us.bowron.apps.juliet.activities.SlideshowActivity;
+
 
 import android.graphics.drawable.Drawable;
 import android.util.Log;

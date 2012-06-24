@@ -1,8 +1,9 @@
-package com.elsewhat.android.slideshow.backend;
+package us.bowron.apps.juliet.backend;
 
 import java.util.List;
 
-import com.elsewhat.android.slideshow.api.SlideshowPhoto;
+import us.bowron.apps.juliet.api.SlideshowPhoto;
+
 
 import android.content.Context;
 

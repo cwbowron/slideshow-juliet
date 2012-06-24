@@ -1,10 +1,12 @@
-package com.elsewhat.android.slideshow.api;
+package us.bowron.apps.juliet.api;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Random;
 
 import us.bowron.apps.juliet.R;
+import us.bowron.apps.juliet.activities.SlideshowActivity;
+import us.bowron.apps.juliet.activities.SlideshowActivity.ImageAdapter;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -24,8 +26,6 @@ import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.ViewAnimator;
 
-import com.elsewhat.android.slideshow.activities.SlideshowActivity;
-import com.elsewhat.android.slideshow.activities.SlideshowActivity.ImageAdapter;
 
 
 public class CustomGallery extends Gallery implements AnimationListener {

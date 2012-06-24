@@ -1,4 +1,4 @@
-package com.elsewhat.android.slideshow.activities;
+package us.bowron.apps.juliet.activities;
 
 import java.io.File;
 import java.io.InputStream;
@@ -13,6 +13,21 @@ import java.util.List;
 import java.util.Random;
 
 import us.bowron.apps.juliet.R;
+import us.bowron.apps.juliet.api.Analytics;
+import us.bowron.apps.juliet.api.AndroidUtils;
+import us.bowron.apps.juliet.api.AsyncQueueableObject;
+import us.bowron.apps.juliet.api.AsyncReadQueue;
+import us.bowron.apps.juliet.api.CustomGallery;
+import us.bowron.apps.juliet.api.DownloadableObject;
+import us.bowron.apps.juliet.api.FileDownloader;
+import us.bowron.apps.juliet.api.FileUtils;
+import us.bowron.apps.juliet.api.QueueablePhotoObject;
+import us.bowron.apps.juliet.api.SlideshowPhoto;
+import us.bowron.apps.juliet.api.SlideshowPhotoCached;
+import us.bowron.apps.juliet.api.SlideshowPhotoDrawable;
+import us.bowron.apps.juliet.api.AsyncReadQueue.AsyncQueueListener;
+import us.bowron.apps.juliet.api.FileDownloader.FileDownloaderListener;
+import us.bowron.apps.juliet.backend.FlickrPublicSetBackend;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -45,21 +60,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.elsewhat.android.slideshow.api.Analytics;
-import com.elsewhat.android.slideshow.api.AndroidUtils;
-import com.elsewhat.android.slideshow.api.AsyncQueueableObject;
-import com.elsewhat.android.slideshow.api.AsyncReadQueue;
-import com.elsewhat.android.slideshow.api.AsyncReadQueue.AsyncQueueListener;
-import com.elsewhat.android.slideshow.api.CustomGallery;
-import com.elsewhat.android.slideshow.api.DownloadableObject;
-import com.elsewhat.android.slideshow.api.FileDownloader;
-import com.elsewhat.android.slideshow.api.FileDownloader.FileDownloaderListener;
-import com.elsewhat.android.slideshow.api.FileUtils;
-import com.elsewhat.android.slideshow.api.QueueablePhotoObject;
-import com.elsewhat.android.slideshow.api.SlideshowPhoto;
-import com.elsewhat.android.slideshow.api.SlideshowPhotoCached;
-import com.elsewhat.android.slideshow.api.SlideshowPhotoDrawable;
-import com.elsewhat.android.slideshow.backend.FlickrPublicSetBackend;
 
 
 public class SlideshowActivity extends Activity implements FileDownloaderListener, OnSharedPreferenceChangeListener,AsyncQueueListener{

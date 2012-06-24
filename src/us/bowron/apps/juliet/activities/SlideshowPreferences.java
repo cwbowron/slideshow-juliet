@@ -1,8 +1,12 @@
-package com.elsewhat.android.slideshow.activities;
+package us.bowron.apps.juliet.activities;
 
 import java.io.File;
 
 import us.bowron.apps.juliet.R;
+import us.bowron.apps.juliet.api.Analytics;
+import us.bowron.apps.juliet.api.AndroidUtils;
+import us.bowron.apps.juliet.api.DeletablePreference;
+import us.bowron.apps.juliet.api.ReadOnlyPreference;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
@@ -24,10 +28,6 @@ import android.text.InputType;
 import android.text.method.DigitsKeyListener;
 import android.widget.Toast;
 
-import com.elsewhat.android.slideshow.api.Analytics;
-import com.elsewhat.android.slideshow.api.AndroidUtils;
-import com.elsewhat.android.slideshow.api.DeletablePreference;
-import com.elsewhat.android.slideshow.api.ReadOnlyPreference;
 
 
 public class SlideshowPreferences extends PreferenceActivity implements

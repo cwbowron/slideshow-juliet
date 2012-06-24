@@ -43,7 +43,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.elsewhat.android.slideshow.activities.SlideshowPreferences"
+            android:name=".activities.SlideshowPreferences"
             android:label="@string/preferences_name" >
         </activity>
     </application>

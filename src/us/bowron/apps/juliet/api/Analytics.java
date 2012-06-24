@@ -1,10 +1,10 @@
-package com.elsewhat.android.slideshow.api;
+package us.bowron.apps.juliet.api;
 
+import us.bowron.apps.juliet.activities.SlideshowPreferences;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import com.elsewhat.android.slideshow.activities.SlideshowPreferences;
 import com.google.android.apps.analytics.GoogleAnalyticsTracker;
 
 public class Analytics {

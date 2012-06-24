@@ -1,4 +1,4 @@
-package com.elsewhat.android.slideshow.api;
+package us.bowron.apps.juliet.api;
 
 public interface AsyncQueueableObject {
 	/**
